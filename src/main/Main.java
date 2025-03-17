@@ -4,12 +4,16 @@
  */
 package main;
 
+import main.core.Person;
+
 /**
  *
  * @author Luis Ernesto Nuñez
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!!");
+        Person x;
+        x = new Person(10000,17,"Carlos");
+        System.out.println(x);
     }
 }
