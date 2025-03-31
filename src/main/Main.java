@@ -16,7 +16,7 @@ public class Main {
         Person x;
         Cat y; 
         x = new Person(10000,17,"Carlos");
-        y = new Cat(10, 10,10, "Dalmata");
+        y = new Cat(10, 10,10, "Carpincho");
         System.out.println(x);
         System.out.println(y);
     }
