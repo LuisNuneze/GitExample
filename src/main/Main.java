@@ -16,7 +16,11 @@ public class Main {
         Person x;
         Dog y; 
         x = new Person(10000,17,"Carlos");
+<<<<<<< HEAD
         y = new Dog(10, 10,10, "Carpincho");
+=======
+        y = new Cat(10, 10,10, "Carpincho");
+>>>>>>> feature2
         System.out.println(x);
         System.out.println(y);
     }
