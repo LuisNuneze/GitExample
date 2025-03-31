@@ -14,6 +14,11 @@ import main.core.Person;
  */
 public class Main {
     public static void main(String[] args) {
-        
+        Person x;
+        Dog y; 
+        x = new Person(10000,17,"Carlos");
+        y = new Dog(10, 10,10, "Carpincho");
+        System.out.println(x);
+        System.out.println(y);
     }
 }
